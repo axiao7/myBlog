@@ -9,6 +9,10 @@
 <body>
 	<h1>My first blog!</h1>
 	Hello world! I am Vincenzo. powered by 刘文栖
+	<br>
+	<?php
+		echo "您的ip为".$_SERVER["REMOTE_ADDR"];;
+	?>
 	<div class="container">
 		<div class="content">
 			<div class="me">
