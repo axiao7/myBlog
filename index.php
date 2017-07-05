@@ -7,8 +7,10 @@
 	<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-	<h1>My first blog!</h1>
-	Hello world! I am Vincenzo. powered by 刘文栖
+	<div class="hid">
+		<h1>My first blog!</h1>
+	</div>
+	Hello world! I am <a class="my" href="https://liuwenxi.cn">Vincenzo</a>. powered by <a class="my" href="https://liuwenxi.cn">刘文栖</a>
 	<br>
 	<?php
 		echo "您的ip为".$_SERVER["REMOTE_ADDR"];;
@@ -22,6 +24,11 @@
 			</div>
 		</div>
 	</div>
+	<footer>
+		<section class="copyright "><a href="https://liuwenxi.cn ">Vincenzo</a> © 2017 </section>
+		<section class="poweredby ">Powered by  <a href="https://liuwenxi.cn ">刘文栖</a></section>
+		<section><a href="http://www.miitbeian.gov.cn/">苏ICP备17023053号</a></section>
+  </footer>
 	<div style="display:none;">
 		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257545725'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1257545725' type='text/javascript'%3E%3C/script%3E"));</script>
 	</div>

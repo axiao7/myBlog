@@ -1,6 +1,19 @@
-body, html {
+html, body {
+	width: 100%;
+	height: 100%;
 	padding: 0;
 	margin: 0;
+}
+/*body {
+	overflow: hidden;
+}*/
+.hid {
+	/*margin-top: 22px;*/
+	overflow: hidden;
+}
+.my {
+	text-decoration: none;
+	color: #000;
 }
 .content {
 	min-width: 960px;
@@ -20,4 +33,17 @@ body, html {
 }
 .joke {
 	text-align: center;
+}
+footer {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	font-weight: lighter;
+	text-align: center;
+	color: #666665;
+	font-size: 14px;
+}
+footer a {
+	text-decoration: none;
+	color: #666665;
 }
